@@ -327,13 +327,14 @@ function GetOffice ([ref]$NewFirstName, [ref]$NewOffice)
         {
             Write-Host "
             --- Please select the campus that $UserName will be at: ---
-            1. Central Services
-            2. Akron
-            3. Canton
-            4. Coshocton
-            5. Dover
-            6. Millersburg
-            7. Wooster
+            1. Plant 1
+            2. Plant 5
+            3. Baker Center
+            4. Civitan Children's Center
+            5. GH 101
+            6. GH 105
+            7. GH 9
+            8. GH 11
             "
             $choice1 = Read-Host -Prompt "Make a selection and press Enter"
         }
